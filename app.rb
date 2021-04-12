@@ -9,5 +9,10 @@ get '/' do
 end
 
 get '/secret' do
-  'Welcome to our website'
+  'Welcome to our secret website'
 end 
+
+get '/cat' do
+  erb(:index)
+end
+  
