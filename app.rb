@@ -13,6 +13,6 @@ get '/secret' do
 end 
 
 get '/cat' do
+  @name_randomizer = ["Amigo", "Mittens", "Almond"].sample
   erb(:index)
 end
-  
